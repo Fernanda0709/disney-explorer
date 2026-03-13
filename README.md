@@ -2,14 +2,14 @@
 
 Aplicación web desarrollada con **Vue.js 3** que consume la API pública de Disney para explorar personajes del universo Disney.
 
-## 🌐 API Utilizada
+## API Utilizada
 
 **Disney API** — [https://api.disneyapi.dev](https://api.disneyapi.dev)
 
 - Gratuita, sin necesidad de registro ni API key
 - Más de 1.000 personajes con información de películas, series, videojuegos, aliados y enemigos
 
-## 📋 Descripción del Aplicativo
+## Descripción del Aplicativo
 
 Disney Explorer permite al usuario:
 - Explorar un catálogo de personajes Disney con imágenes, nombres y películas
@@ -18,7 +18,7 @@ Disney Explorer permite al usuario:
 - Guardar personajes como favoritos (persistidos en localStorage)
 - Navegar entre páginas del catálogo
 
-## 🚀 Instrucciones de Ejecución
+## Instrucciones de Ejecución
 
 ### Requisitos previos
 - Node.js 18 o superior
@@ -47,7 +47,7 @@ npm run build
 npx vercel deploy
 ```
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías Utilizadas
 
 | Tecnología | Uso |
 |---|---|
@@ -59,7 +59,7 @@ npx vercel deploy
 | Google Fonts (Cinzel + Lato) | Tipografías |
 | Font Awesome 6 | Íconos |
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
 ```
 disney-explorer/
@@ -81,7 +81,7 @@ disney-explorer/
 └── package.json
 ```
 
-## 📱 Responsive Design
+## Responsive Design
 
 La app se adapta a 3 tamaños de pantalla:
 
@@ -89,7 +89,7 @@ La app se adapta a 3 tamaños de pantalla:
 - **Tablet (768px - 1024px)**: Grilla de 3-4 columnas
 - **Móvil (<768px)**: Grilla de 2 columnas, menú hamburguesa
 
-## 🎨 Vistas Principales
+## Vistas Principales
 
 1. **Inicio** — Hero animado, estadísticas, 8 personajes destacados
 2. **Personajes** — Catálogo completo con búsqueda y paginación
